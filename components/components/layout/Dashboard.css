@@ -1,0 +1,51 @@
+.top-container{
+    background-color: #101010;
+    padding: 20px 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-profile{
+    display: flex;
+    float: right;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.top-title{
+    flex: 4;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.top-profile-name{
+    color: #ffffff;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family: sans-serif;
+    
+}
+.top-profile-image{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .top-profile-name{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .top-profile-name{
+        margin-right: 5px;
+    }
+    .top-profile-image{
+        right: 10px;
+        margin-right: 0;
+    }
+    .top-title{
+        font-size: 30px;
+    }
+}
